@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <MenuPrincipal msg="teste"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MenuPrincipal from './components/Menu.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MenuPrincipal 
   }
 }
 </script>
@@ -21,6 +22,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: red;
 }
 </style>

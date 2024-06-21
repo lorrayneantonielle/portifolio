@@ -1,26 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <MenuPrincipal msg="apresentacao"/>
+  <SoftHardSkills msg="skills" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MenuPrincipal from './components/Menu.vue'
+import SoftHardSkills from './components/Skills.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MenuPrincipal ,
+    SoftHardSkills
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Kanit", sans-serif;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  padding:0;
 }
 </style>
